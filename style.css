@@ -654,6 +654,7 @@ button { cursor: pointer; border: 0; background: transparent; }
   padding: 20px;
   animation: fadeIn .2s var(--ease);
 }
+.modal-backdrop[hidden] { display: none; }
 
 .modal {
   background: var(--bg);
